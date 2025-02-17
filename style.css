@@ -1,0 +1,60 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgba(18, 28, 66, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.button-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.button-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.scores {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.winner-message {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.reset-button {
+  display: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
